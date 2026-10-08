@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43e0968515246444b391547dc4f86f9, type: 3}
+  m_Name: RageAbility
+  m_EditorClassIdentifier: Assembly-CSharp::ClassAbility
+  abilityID: rage
+  classID: vessel
+  displayName: Rage
+  description: Rage bar is filled as you take damage, too much rage will cause you
+    to lose vision but you may press Q to release the rage for a short term damage
+    and speed buff
+  icon: {fileID: -4499921932346372359, guid: 39eea3df507894d4ab6ecf8e08c7dca6, type: 3}
+  unlockLevel: 1
+  cooldown: 2
+  cost: 3
+  keyHint: Q

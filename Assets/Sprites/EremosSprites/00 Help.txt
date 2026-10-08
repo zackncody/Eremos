@@ -1,0 +1,5 @@
+All sprites in this folder are sized for the game and not for viewing up close.
+
+All sprites have their size in the title (Width X Height)
+
+All sprites are PNG's.

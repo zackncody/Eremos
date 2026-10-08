@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33510ff8c7948694e888b1ce874b236e, type: 3}
+  m_Name: Unraveler
+  m_EditorClassIdentifier: Assembly-CSharp::ClassData
+  classID: unraveler
+  displayName: Unraveler
+  levelCap: 10
+  baseXP: 100
+  xpGrowth: 1.5
+  xpPerDamage: 10
+  abilityCost: 1
+  baseDuration: 5
+  durationPerLevel: 0.5
+  baseCooldown: 0
+  cooldownReductionPerLevel: 0
+  abilities:
+  - {fileID: 11400000, guid: 387319d627480174cab17afe24308036, type: 2}
+  - {fileID: 11400000, guid: e6c0068fc995c0946aec7d754706853e, type: 2}

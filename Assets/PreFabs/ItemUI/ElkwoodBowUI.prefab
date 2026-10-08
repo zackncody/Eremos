@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1075792768342707097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7796539714542354737}
+  - component: {fileID: 7194388086232992440}
+  - component: {fileID: 3030009336205934921}
+  - component: {fileID: 6443033813123972354}
+  m_Layer: 5
+  m_Name: ElkwoodBowUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7796539714542354737
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075792768342707097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -49.999996, y: 49.999996}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &7194388086232992440
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075792768342707097}
+  m_CullTransparentMesh: 1
+--- !u!114 &3030009336205934921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075792768342707097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -7131225418442289187, guid: 4fa9bf69ab87efc4a85b3449bbdc4ddb, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6443033813123972354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075792768342707097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de9dc845fc47d64298119ee9fd19894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryDragItem
+  itemData:
+    itemName: Elkwood Bow
+    description: 
+    icon: {fileID: -7131225418442289187, guid: 4fa9bf69ab87efc4a85b3449bbdc4ddb, type: 3}
+    gridSize: {x: 0, y: 0}
+    inventoryPrefab: {fileID: 1075792768342707097}
+    itemPrefab: {fileID: 5747619084416552228, guid: 9b1dc51f65086be4ebab3f3bc61c11d6, type: 3}
+    resourcePath: Items/ElkwoodBowUI
+    weaponData:
+      resourceCost: 1
+      weaponType: 0
+      damage: 5
+      attackSpeed: 1
+      swingDuration: 0.2
+      swingArc: 90
+      damageInterval: 0.5
+      knockbackForce: 8
+      knockbackDuration: 0.15
+      rotationOffset: 0
+      burnChance: 0
+      poisonChance: 0
+      slowChance: 0
+      bleedChance: 0
+      arrowPrefab: {fileID: 0}
+      arrowSpeed: 18
+      pullBackDuration: 0.4
+      magicCastType: 0
+      castTime: 0.3
+      manaCost: 10
+      magicProjectilePrefab: {fileID: 0}
+      magicProjectileSpeed: 14
+      magicAOEPrefab: {fileID: 0}
+      magicAOERadius: 2.5
+      summonPrefab: {fileID: 0}
+      maxActiveSummons: 1
+      summonDuration: 15
+      summonCooldown: 1
+      summonDamage: 4
+      summonAttackRange: 1
+      summonAttackInterval: 1
+      summonMoveSpeed: 3
+      summonFollowDistance: 2
+      summonAggroRange: 5
+      summonExtendPerHit: 0
+    armourData:
+      slot: 0
+      defense: 0
+      fireResistance: 0
+      poisonResistance: 0
+      slowResistance: 0
+      bleedResistance: 0
+      equippedSprite: {fileID: 0}
+    accessoryData:
+      slot: 0
+      bonusDamage: 0
+      attackSpeedBonus: 0
+      burnChanceBonus: 0
+      poisonChanceBonus: 0
+      slowChanceBonus: 0
+      bleedChanceBonus: 0
+      knockbackBonus: 0
+      providesLight: 0
+    isKey: 0
+    keyID: 
+    level: 1
+    currentXP: 0
+  image: {fileID: 3030009336205934921}

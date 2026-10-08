@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c74757a654392441b4e54a3cb4c2929, type: 3}
+  m_Name: AfterlifeItemChoiceSetFirst
+  m_EditorClassIdentifier: Assembly-CSharp::AfterlifeItemChoiceSet
+  deathCountTrigger: 1
+  choices:
+  - itemName: Blood Drop Charm
+    description: ...
+    icon: {fileID: 2784609592717874938, guid: 27cd95e4caba5c04895f452457b456d1, type: 3}
+    gridSize: {x: 1, y: 1}
+    inventoryPrefab: {fileID: 1075792768342707097, guid: 147f9798517bc554a818a13fdbc83c61, type: 3}
+    itemPrefab: {fileID: 51936728005945, guid: d1e0cf22b77cdc547b7eedd41b4c653d, type: 3}
+    resourcePath: Items/BloodDropCharm
+    weaponData:
+      weaponType: 0
+      damage: 0
+      attackSpeed: 0
+      swingDuration: 0
+      swingArc: 0
+      damageInterval: 0
+      knockbackForce: 0
+      knockbackDuration: 0
+      rotationOffset: 0
+      burnChance: 0
+      poisonChance: 0
+      slowChance: 0
+      bleedChance: 0
+      arrowPrefab: {fileID: 0}
+      arrowSpeed: 0
+      pullBackDuration: 0
+    armorData:
+      slot: 0
+      defense: 0
+      fireResistance: 0
+      poisonResistance: 0
+      slowResistance: 0
+      bleedResistance: 0
+    accessoryData:
+      slot: 5
+      bonusDamage: 0
+      attackSpeedBonus: 0
+      burnChanceBonus: 0
+      poisonChanceBonus: 0
+      slowChanceBonus: 0
+      bleedChanceBonus: 0.5
+      knockbackBonus: 0
+  - itemName: PlaceHolder
+    description: ...
+    icon: {fileID: 7711614506353023511, guid: c131bdee90f0c334aa4a302e58805387, type: 3}
+    gridSize: {x: 1, y: 1}
+    inventoryPrefab: {fileID: 1075792768342707097, guid: 24bf2ce7055f09d4f986e54ca9ca0ffa, type: 3}
+    itemPrefab: {fileID: 51936728005945, guid: 403e4a223ad3f5941a4f3eb5ffb0b5bd, type: 3}
+    resourcePath: Items/BeachStarRing
+    weaponData:
+      weaponType: 0
+      damage: 0
+      attackSpeed: 0
+      swingDuration: 0
+      swingArc: 0
+      damageInterval: 0
+      knockbackForce: 0
+      knockbackDuration: 0
+      rotationOffset: 0
+      burnChance: 0
+      poisonChance: 0
+      slowChance: 0
+      bleedChance: 0
+      arrowPrefab: {fileID: 0}
+      arrowSpeed: 0
+      pullBackDuration: 0
+    armorData:
+      slot: 0
+      defense: 0
+      fireResistance: 0
+      poisonResistance: 0
+      slowResistance: 0
+      bleedResistance: 0
+    accessoryData:
+      slot: 0
+      bonusDamage: 0
+      attackSpeedBonus: 0
+      burnChanceBonus: 0
+      poisonChanceBonus: 0
+      slowChanceBonus: 0
+      bleedChanceBonus: 0
+      knockbackBonus: 0
